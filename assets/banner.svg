@@ -1,52 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
-  <title id="title">Yuggo Teruya — Full Stack Developer</title>
-  <desc id="description">Layered green mountains and a forest in morning mist.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Yuggo Teruya | Full Stack Developer</title>
+  <desc id="desc">Dark green banner with luminous mist, drifting contour lines and the focus areas healthcare, workflows, data and applied AI.</desc>
+  <style>
+    .waves{animation:drift 11s ease-in-out infinite alternate}
+    .ring{transform-origin:951px 124px;animation:pulse 7s ease-in-out infinite}
+    .ring2{transform-origin:951px 124px;animation:pulse 7s ease-in-out -3.5s infinite}
+    .accent{transform-origin:96px 91px;animation:grow 1.4s cubic-bezier(.2,.7,.2,1) both}
+    .dot{animation:blink 2.4s ease-in-out infinite}
+    .rise{animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+    .rise2{animation:rise 1s cubic-bezier(.2,.7,.2,1) .15s both}
+    .rise3{animation:rise 1s cubic-bezier(.2,.7,.2,1) .3s both}
+    @keyframes drift{to{transform:translate(-40px,6px)}}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:.19}50%{transform:scale(1.08);opacity:.08}}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
   <defs>
-    <linearGradient id="sky" x2="100%" y2="65%">
-      <stop stop-color="#0B1713"/>
-      <stop offset=".55" stop-color="#19382E"/>
-      <stop offset="1" stop-color="#668778"/>
-    </linearGradient>
-    <radialGradient id="light">
-      <stop stop-color="#D4C5A5" stop-opacity=".65"/>
-      <stop offset="1" stop-color="#D4C5A5" stop-opacity="0"/>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="24"/></clipPath>
+    <radialGradient id="emerald">
+      <stop stop-color="#438764" stop-opacity=".65"/><stop offset="1" stop-color="#438764" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="mist">
-      <stop stop-color="#9CBFA7" stop-opacity="0"/>
-      <stop offset=".78" stop-color="#CFDBCB" stop-opacity=".58"/>
-      <stop offset="1" stop-color="#E1E9DF" stop-opacity=".15"/>
+    <radialGradient id="sand">
+      <stop stop-color="#D4C5A5" stop-opacity=".27"/><stop offset="1" stop-color="#D4C5A5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade">
+      <stop stop-color="#ADC5A8" stop-opacity="0"/><stop offset=".58" stop-color="#ADC5A8" stop-opacity=".28"/><stop offset="1" stop-color="#ADC5A8" stop-opacity=".09"/>
     </linearGradient>
-    <linearGradient id="shade">
-      <stop stop-color="#0B1713"/>
-      <stop offset=".3" stop-color="#0B1713" stop-opacity=".86"/>
-      <stop offset=".68" stop-color="#0B1713" stop-opacity="0"/>
-    </linearGradient>
-    <path id="fir" d="M0 0 4 10H2l5 8H4l6 8H1v5h-2v-5h-9l6-8h-3l5-8h-2Z"/>
+    <pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r=".55" fill="#B9C8B7" opacity=".22"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="300" fill="url(#sky)"/>
-  <ellipse cx="1000" cy="83" rx="257" ry="150" fill="url(#light)"/>
-  <path fill="#759789" d="M351 211 464 182 543 151 604 145 668 121 739 134 813 90 880 49 904 54 965 97 1038 126 1092 105 1138 110 1200 86V300H351Z"/>
-  <path fill="#507968" d="M281 234 434 192 534 201 602 166 677 158 735 130 777 144 828 169 890 167 951 132 991 116 1048 133 1120 166 1200 151V300H281Z"/>
-  <path fill="url(#mist)" d="M430 183c163 23 283-13 436-16s210 20 334-13v40c-137 20-236-10-353 0s-282 36-417 8Z"/>
-  <path fill="#285943" d="M150 232 350 206 489 237 618 216 701 191 752 198 811 214 873 204 937 208 1005 190 1054 201 1128 190 1200 172V300H150Z"/>
-  <path fill="url(#mist)" opacity=".75" d="M574 227c111-6 189 7 296 5 133-1 232-27 330-38v28c-150 15-199 35-345 30-94-3-185 0-281-16Z"/>
-  <path fill="#142D25" d="M0 251 163 230 321 254 475 252 597 271 746 259 859 276 953 264 1021 248 1081 255 1145 232 1200 229V300H0Z"/>
-  <g fill="#142D25">
-    <use href="#fir" transform="translate(952 238) scale(.95)"/>
-    <use href="#fir" transform="translate(974 231) scale(1.04)"/>
-    <use href="#fir" transform="translate(991 235) scale(.8)"/>
-    <use href="#fir" transform="translate(1013 221) scale(1.1)"/>
-    <use href="#fir" transform="translate(1032 234) scale(.8)"/>
-    <use href="#fir" transform="translate(1061 229) scale(1.03)"/>
-    <use href="#fir" transform="translate(1087 223) scale(1.12)"/>
-    <use href="#fir" transform="translate(1108 226) scale(.83)"/>
-    <use href="#fir" transform="translate(1129 211) scale(1.19)"/>
-    <use href="#fir" transform="translate(1150 200) scale(1.37)"/>
-    <use href="#fir" transform="translate(1173 209) scale(.98)"/>
-    <use href="#fir" transform="translate(1194 190) scale(1.55)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="#0B1512"/>
+    <ellipse cx="987" cy="271" rx="505" ry="258" fill="url(#emerald)"/>
+    <ellipse cx="1074" cy="10" rx="382" ry="226" fill="url(#sand)"/>
+    <ellipse cx="21" cy="315" rx="362" ry="211" fill="url(#emerald)" opacity=".36"/>
+    <rect width="1200" height="340" fill="url(#grain)"/>
+    <g class="waves" fill="none" stroke="url(#fade)" stroke-width="1.25">
+    <path d="M590 119C704 160 760 41 889 77S1074 162 1270 92"/>
+    <path d="M590 134C704 175 760 56 889 92S1074 177 1270 107"/>
+    <path d="M590 149C704 190 760 71 889 107S1074 192 1270 122"/>
+    <path d="M590 164C704 205 760 86 889 122S1074 207 1270 137"/>
+    <path d="M590 179C704 220 760 101 889 137S1074 222 1270 152"/>
+    <path d="M590 194C704 235 760 116 889 152S1074 237 1270 167"/>
+    <path d="M590 209C704 250 760 131 889 167S1074 252 1270 182"/>
+    <path d="M590 224C704 265 760 146 889 182S1074 267 1270 197"/>
+    <path d="M590 239C704 280 760 161 889 197S1074 282 1270 212"/>
+    <path d="M590 254C704 295 760 176 889 212S1074 297 1270 227"/>
+    <path d="M590 269C704 310 760 191 889 227S1074 312 1270 242"/>
+    <path d="M590 284C704 325 760 206 889 242S1074 327 1270 257"/>
+    </g>
+    <circle class="ring" cx="951" cy="124" r="57" fill="none" stroke="#D4C5A5" opacity=".19"/>
+    <circle class="ring2" cx="951" cy="124" r="80" fill="none" stroke="#D4C5A5" opacity=".09"/>
+    <circle class="dot" cx="951" cy="124" r="4" fill="#D4C5A5" opacity=".9"/>
+    <path class="accent" d="M96 91h48" stroke="#B6CBB3" stroke-width="3" stroke-linecap="round"/>
+    <g font-family="Segoe UI, system-ui, -apple-system, Helvetica, Arial, sans-serif">
+      <text class="rise" x="90" y="188" fill="#F1F4EB" font-size="100" font-weight="700" letter-spacing="-4">Yuggo Teruya</text>
+      <text class="rise2" x="96" y="250" fill="#BCDBBF" font-size="46" font-weight="500">Full Stack Developer</text>
+      <text class="rise3" x="97" y="298" fill="#D4C5A5" fill-opacity=".85" font-size="17" font-weight="600" letter-spacing="3.2">HEALTHCARE  ·  WORKFLOWS  ·  DATA  ·  APPLIED AI</text>
+    </g>
   </g>
-  <rect width="1200" height="300" fill="url(#shade)"/>
-  <path d="M76 69h45" stroke="#D4C5A5" stroke-width="3"/>
-  <text x="71" y="157" fill="#E1E9DF" font-family="system-ui, Segoe UI, sans-serif" font-size="86" font-weight="650">Yuggo Teruya</text>
-  <text x="77" y="218" fill="#B8D1BE" font-family="system-ui, Segoe UI, sans-serif" font-size="46" font-weight="500">Full Stack Developer</text>
+  <rect x="1" y="1" width="1198" height="338" rx="24" fill="none" stroke="#5E816F" stroke-opacity=".42" stroke-width="2"/>
 </svg>

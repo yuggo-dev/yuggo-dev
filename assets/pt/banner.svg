@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Yuggo Teruya | Desenvolvedor Full Stack</title>
+  <desc id="desc">Dark green banner with luminous mist, drifting contour lines and the focus areas healthcare, workflows, data and applied AI.</desc>
+  <style>
+    .waves{animation:drift 11s ease-in-out infinite alternate}
+    .ring{transform-origin:951px 124px;animation:pulse 7s ease-in-out infinite}
+    .ring2{transform-origin:951px 124px;animation:pulse 7s ease-in-out -3.5s infinite}
+    .accent{transform-origin:96px 91px;animation:grow 1.4s cubic-bezier(.2,.7,.2,1) both}
+    .dot{animation:blink 2.4s ease-in-out infinite}
+    .rise{animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+    .rise2{animation:rise 1s cubic-bezier(.2,.7,.2,1) .15s both}
+    .rise3{animation:rise 1s cubic-bezier(.2,.7,.2,1) .3s both}
+    @keyframes drift{to{transform:translate(-40px,6px)}}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:.19}50%{transform:scale(1.08);opacity:.08}}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="24"/></clipPath>
+    <radialGradient id="emerald">
+      <stop stop-color="#438764" stop-opacity=".65"/><stop offset="1" stop-color="#438764" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sand">
+      <stop stop-color="#D4C5A5" stop-opacity=".27"/><stop offset="1" stop-color="#D4C5A5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade">
+      <stop stop-color="#ADC5A8" stop-opacity="0"/><stop offset=".58" stop-color="#ADC5A8" stop-opacity=".28"/><stop offset="1" stop-color="#ADC5A8" stop-opacity=".09"/>
+    </linearGradient>
+    <pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r=".55" fill="#B9C8B7" opacity=".22"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="#0B1512"/>
+    <ellipse cx="987" cy="271" rx="505" ry="258" fill="url(#emerald)"/>
+    <ellipse cx="1074" cy="10" rx="382" ry="226" fill="url(#sand)"/>
+    <ellipse cx="21" cy="315" rx="362" ry="211" fill="url(#emerald)" opacity=".36"/>
+    <rect width="1200" height="340" fill="url(#grain)"/>
+    <g class="waves" fill="none" stroke="url(#fade)" stroke-width="1.25">
+    <path d="M590 119C704 160 760 41 889 77S1074 162 1270 92"/>
+    <path d="M590 134C704 175 760 56 889 92S1074 177 1270 107"/>
+    <path d="M590 149C704 190 760 71 889 107S1074 192 1270 122"/>
+    <path d="M590 164C704 205 760 86 889 122S1074 207 1270 137"/>
+    <path d="M590 179C704 220 760 101 889 137S1074 222 1270 152"/>
+    <path d="M590 194C704 235 760 116 889 152S1074 237 1270 167"/>
+    <path d="M590 209C704 250 760 131 889 167S1074 252 1270 182"/>
+    <path d="M590 224C704 265 760 146 889 182S1074 267 1270 197"/>
+    <path d="M590 239C704 280 760 161 889 197S1074 282 1270 212"/>
+    <path d="M590 254C704 295 760 176 889 212S1074 297 1270 227"/>
+    <path d="M590 269C704 310 760 191 889 227S1074 312 1270 242"/>
+    <path d="M590 284C704 325 760 206 889 242S1074 327 1270 257"/>
+    </g>
+    <circle class="ring" cx="951" cy="124" r="57" fill="none" stroke="#D4C5A5" opacity=".19"/>
+    <circle class="ring2" cx="951" cy="124" r="80" fill="none" stroke="#D4C5A5" opacity=".09"/>
+    <circle class="dot" cx="951" cy="124" r="4" fill="#D4C5A5" opacity=".9"/>
+    <path class="accent" d="M96 91h48" stroke="#B6CBB3" stroke-width="3" stroke-linecap="round"/>
+    <g font-family="Segoe UI, system-ui, -apple-system, Helvetica, Arial, sans-serif">
+      <text class="rise" x="90" y="188" fill="#F1F4EB" font-size="100" font-weight="700" letter-spacing="-4">Yuggo Teruya</text>
+      <text class="rise2" x="96" y="250" fill="#BCDBBF" font-size="46" font-weight="500">Desenvolvedor Full Stack</text>
+      <text class="rise3" x="97" y="298" fill="#D4C5A5" fill-opacity=".85" font-size="17" font-weight="600" letter-spacing="3.2">SAÚDE  ·  FLUXOS  ·  DADOS  ·  IA APLICADA</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="338" rx="24" fill="none" stroke="#5E816F" stroke-opacity=".42" stroke-width="2"/>
+</svg>
