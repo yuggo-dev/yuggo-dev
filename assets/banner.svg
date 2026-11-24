@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Yuggo Teruya — Full Stack Developer</title>
+  <desc id="description">Layered green mountains and a forest in morning mist.</desc>
+  <defs>
+    <linearGradient id="sky" x2="100%" y2="65%">
+      <stop stop-color="#0B1713"/>
+      <stop offset=".55" stop-color="#19382E"/>
+      <stop offset="1" stop-color="#668778"/>
+    </linearGradient>
+    <radialGradient id="light">
+      <stop stop-color="#D4C5A5" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#D4C5A5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mist">
+      <stop stop-color="#9CBFA7" stop-opacity="0"/>
+      <stop offset=".78" stop-color="#CFDBCB" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#E1E9DF" stop-opacity=".15"/>
+    </linearGradient>
+    <linearGradient id="shade">
+      <stop stop-color="#0B1713"/>
+      <stop offset=".3" stop-color="#0B1713" stop-opacity=".86"/>
+      <stop offset=".68" stop-color="#0B1713" stop-opacity="0"/>
+    </linearGradient>
+    <path id="fir" d="M0 0 4 10H2l5 8H4l6 8H1v5h-2v-5h-9l6-8h-3l5-8h-2Z"/>
+  </defs>
+  <rect width="1200" height="300" fill="url(#sky)"/>
+  <ellipse cx="1000" cy="83" rx="257" ry="150" fill="url(#light)"/>
+  <path fill="#759789" d="M351 211 464 182 543 151 604 145 668 121 739 134 813 90 880 49 904 54 965 97 1038 126 1092 105 1138 110 1200 86V300H351Z"/>
+  <path fill="#507968" d="M281 234 434 192 534 201 602 166 677 158 735 130 777 144 828 169 890 167 951 132 991 116 1048 133 1120 166 1200 151V300H281Z"/>
+  <path fill="url(#mist)" d="M430 183c163 23 283-13 436-16s210 20 334-13v40c-137 20-236-10-353 0s-282 36-417 8Z"/>
+  <path fill="#285943" d="M150 232 350 206 489 237 618 216 701 191 752 198 811 214 873 204 937 208 1005 190 1054 201 1128 190 1200 172V300H150Z"/>
+  <path fill="url(#mist)" opacity=".75" d="M574 227c111-6 189 7 296 5 133-1 232-27 330-38v28c-150 15-199 35-345 30-94-3-185 0-281-16Z"/>
+  <path fill="#142D25" d="M0 251 163 230 321 254 475 252 597 271 746 259 859 276 953 264 1021 248 1081 255 1145 232 1200 229V300H0Z"/>
+  <g fill="#142D25">
+    <use href="#fir" transform="translate(952 238) scale(.95)"/>
+    <use href="#fir" transform="translate(974 231) scale(1.04)"/>
+    <use href="#fir" transform="translate(991 235) scale(.8)"/>
+    <use href="#fir" transform="translate(1013 221) scale(1.1)"/>
+    <use href="#fir" transform="translate(1032 234) scale(.8)"/>
+    <use href="#fir" transform="translate(1061 229) scale(1.03)"/>
+    <use href="#fir" transform="translate(1087 223) scale(1.12)"/>
+    <use href="#fir" transform="translate(1108 226) scale(.83)"/>
+    <use href="#fir" transform="translate(1129 211) scale(1.19)"/>
+    <use href="#fir" transform="translate(1150 200) scale(1.37)"/>
+    <use href="#fir" transform="translate(1173 209) scale(.98)"/>
+    <use href="#fir" transform="translate(1194 190) scale(1.55)"/>
+  </g>
+  <rect width="1200" height="300" fill="url(#shade)"/>
+  <path d="M76 69h45" stroke="#D4C5A5" stroke-width="3"/>
+  <text x="71" y="157" fill="#E1E9DF" font-family="system-ui, Segoe UI, sans-serif" font-size="86" font-weight="650">Yuggo Teruya</text>
+  <text x="77" y="218" fill="#B8D1BE" font-family="system-ui, Segoe UI, sans-serif" font-size="46" font-weight="500">Full Stack Developer</text>
+</svg>

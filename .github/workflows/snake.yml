@@ -1,0 +1,56 @@
+name: GitHub Contributions
+
+on:
+  schedule:
+    - cron: "23 10 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contributions-output
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Generate SVGs
+        uses: Platane/snk/svg-only@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_user_name: yuggo-dev
+          outputs: |
+            dist/snake-light.svg?palette=github-light&color_snake=%23846A45&color_dots=%23E1E9DF,%239CBFA7,%23438764,%23285943,%23142D25
+            dist/snake-dark.svg?palette=github-dark&color_snake=%23D4C5A5&color_dots=%231D3028,%23285943,%23438764,%2374AA89,%239CBFA7
+      - name: Publish SVGs to output
+        shell: bash
+        run: |
+          output_dir="$RUNNER_TEMP/contribution-output"
+          git worktree add --detach "$output_dir" HEAD
+
+          output_ref="$(git ls-remote --heads origin refs/heads/output)"
+          if [[ -n "$output_ref" ]]; then
+            git fetch --depth=1 origin refs/heads/output
+            git -C "$output_dir" switch --detach FETCH_HEAD
+          else
+            git -C "$output_dir" switch --orphan output
+          fi
+
+          cp dist/snake-light.svg dist/snake-dark.svg "$output_dir/"
+          git -C "$output_dir" add -- snake-light.svg snake-dark.svg
+          if git -C "$output_dir" diff --cached --quiet; then
+            exit 0
+          fi
+
+          git -C "$output_dir" \
+            -c user.name=github-actions[bot] \
+            -c user.email=41898282+github-actions[bot]@users.noreply.github.com \
+            commit -m "Update contribution animations"
+          git -C "$output_dir" push origin HEAD:refs/heads/output
