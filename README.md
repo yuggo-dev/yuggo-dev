@@ -1,52 +1,47 @@
-<p align="right"><b>English</b> · <a href="README.pt-BR.md">Português</a></p>
+<p align="right"><b>Português</b> · <a href="README.en.md">English</a></p>
 
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Yuggo Teruya | Full Stack Developer" />
+  <img src="assets/pt/banner.svg" width="100%" alt="Yuggo Teruya | Desenvolvedor Full Stack" />
 </p>
 
-## About me
+## Sobre mim
 
-I'm a full-stack software developer with around two years of professional experience. I build scalable applications with a focus on workflow optimization, healthcare solutions, data visualization, and applied AI.
+Sou desenvolvedor de software fullstack com cerca de dois anos de experiência profissional. Desenvolvo aplicações escaláveis com foco em organização de fluxos, soluções para a saúde, visualização de dados e inteligência artificial aplicada.
 
-## Areas of Expertise
+## Áreas de Atuação
 
-<img src="assets/expertise.svg" width="100%" alt="Areas of expertise: software architecture, workflow and process management, healthcare solutions, data and analytics, applied AI" />
+<img src="assets/pt/expertise.svg" width="100%" alt="Áreas de atuação: arquitetura de software, fluxos e processos, soluções para a saúde, dados e análises, IA aplicada" />
 
-## Tech Stack
+## Tecnologias
 
-<img src="assets/stack.svg" width="100%" alt="Tech stack. Frontend: React, Vite, Figma. Backend: Spring Boot, Laravel, Node.js. Database: PostgreSQL, Supabase. AI tools: Claude, Codex." />
+<img src="assets/pt/stack.svg" width="100%" alt="Tecnologias. Frontend: React, Vite, Figma. Backend: Spring Boot, Laravel, Node.js. Banco de dados: PostgreSQL, Supabase. Ferramentas de IA: Claude, Codex." />
 
-## Selected Projects & Professional Experience
+## Projetos e Experiência Profissional
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/yuggo-dev/nextOrganize"><img src="assets/nextorganize-card.svg" width="100%" alt="nextOrganize — personal project" /></a>
-      <p>A customizable platform for managing tasks, organizing activities, and structuring workflows.</p>
+      <a href="https://github.com/yuggo-dev/nextOrganize"><img src="assets/pt/nextorganize-card.svg" width="100%" alt="nextOrganize — projeto pessoal" /></a>
+      <p>Plataforma personalizável para gerenciamento de tarefas, organização de atividades e estruturação de fluxos de trabalho.</p>
       <ul>
-        <li>Tasks, weekly routines, and deadlines in one place</li>
-        <li>Monthly calendar with recurring routines</li>
-        <li>Custom task types with color and icon</li>
+        <li>Tarefas, rotinas semanais e prazos no mesmo lugar</li>
+        <li>Calendário do mês com rotinas que se repetem</li>
+        <li>Tipos de tarefa com cor e ícone</li>
       </ul>
-      <p><a href="https://github.com/yuggo-dev/nextOrganize"><b>View repository →</b></a></p>
+      <p><a href="https://github.com/yuggo-dev/nextOrganize"><b>Ver repositório →</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/esusdata-card.svg" width="100%" alt="EsusData — professional experience" />
-      <p>Full Stack Development Intern at <b>BR Consultoria e Desenvolvimento Profissional</b> · Dec 2024 – Jul 2026</p>
+      <img src="assets/pt/esusdata-card.svg" width="100%" alt="EsusData — experiência profissional" />
+      <p>Estagiário em Desenvolvimento Fullstack na <b>BR Consultoria e Desenvolvimento Profissional</b> · dez/2024 – jul/2026</p>
       <ul>
-        <li>Built e-SUS integrations, REST APIs, patient call panels, and dashboards for healthcare indicators.</li>
-        <li>Built solutions used in technical proposals for municipal tenders, helping secure and renew contracts and expand the public-sector client base by up to two municipalities.</li>
+        <li>Desenvolvi integrações com o e-SUS, APIs REST, painéis de chamada e dashboards de indicadores de saúde.</li>
+        <li>Desenvolvi soluções usadas em propostas técnicas de licitações municipais, contribuindo para a aprovação e renovação de contratos e para a expansão da base de clientes públicos em até dois municípios.</li>
       </ul>
-      <p><sub>Proprietary software</sub></p>
+      <p><sub>Software proprietário</sub></p>
     </td>
   </tr>
 </table>
 
-## Education
+## Formação
 
-<img src="assets/education-ufms.svg" width="100%" alt="B.Sc. in Information Systems — Universidade Federal de Mato Grosso do Sul (UFMS), 2023 – present" />
-
-<!--
-## Connect
-Add confirmed links for LinkedIn, portfolio, and professional email.
--->
+<img src="assets/pt/education-ufms.svg" width="100%" alt="Bacharelado em Sistemas de Informação — Universidade Federal de Mato Grosso do Sul (UFMS), 2023 – atual" />
