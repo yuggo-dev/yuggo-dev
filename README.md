@@ -64,13 +64,11 @@ Sou desenvolvedor de software fullstack com cerca de dois anos de experiência p
 
 [View my contribution activity](https://github.com/yuggo-dev#contributions)
 
-<!-- After both SVGs are available in the output branch, remove this comment around the picture.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuggo-dev/yuggo-dev/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuggo-dev/yuggo-dev/output/snake-light.svg" />
   <img alt="Animated visualization of Yuggo Teruya’s GitHub contributions" src="https://raw.githubusercontent.com/yuggo-dev/yuggo-dev/output/snake-light.svg" />
 </picture>
--->
 
 <!--
 ## Connect
